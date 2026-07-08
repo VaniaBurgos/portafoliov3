@@ -262,10 +262,4 @@ footer{
     color:#8b949e;
 
     text-align:center;
-    display: flex;
-    justify-content: space-between; 
-    align-items: last baseline;
-
-    width: 80%;
-
 }
