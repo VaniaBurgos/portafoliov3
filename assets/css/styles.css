@@ -255,11 +255,13 @@ main{
 
 }
 
-footer{
 
-    margin-top:60px;
+footer {
+    margin-top: 60px;
+    color: #8b949e;
 
-    color:#8b949e;
-
-    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para que no se rompa en pantallas pequeñas */
 }
