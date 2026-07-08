@@ -262,5 +262,10 @@ footer{
     color:#8b949e;
 
     text-align:center;
+    display: flex;
+    justify-content: space-between; /* Reparte el contenido */
+    align-items: center;
+
+    width: 100%;
 
 }
