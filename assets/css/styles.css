@@ -263,8 +263,8 @@ footer{
 
     text-align:center;
     display: flex;
-    justify-content: space-between; /* Reparte el contenido */
-    align-items: center;
+    justify-content: space-between; 
+    align-items: last baseline;
 
     width: 100%;
 
