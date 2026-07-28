@@ -270,3 +270,48 @@ footer {
     align-items: center;
     flex-wrap: wrap; /* Para que no se rompa en pantallas pequeñas */
 }
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+
+    aside{
+        position:relative;
+        width:100%;
+        height:auto;
+        border-right:none;
+        border-bottom:1px solid #30363d;
+        padding:30px 20px;
+    }
+
+    aside img{
+        width:140px;
+        height:140px;
+    }
+
+    main{
+        margin-left:0;
+        padding:30px 20px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero h2{
+        font-size:1.1rem;
+    }
+
+    .card{
+        padding:25px;
+    }
+
+    footer{
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
+
+}
