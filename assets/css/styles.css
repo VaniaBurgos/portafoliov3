@@ -52,6 +52,13 @@ aside img{
 
 }
 
+.certificado-icono {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
 aside h1{
 
     font: size 2em;
